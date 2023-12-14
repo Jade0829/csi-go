@@ -88,6 +88,4 @@ func (cs *DefaultControllerServer) ControllerGetVolume(context.Context, *csi.Con
 	return nil, status.Error(codes.Unimplemented, "")
 }
 
-func (cs *DefaultControllerServer) ControllerModifyVolume(context.Context, *csi.ControllerModifyVoluemRequest) (*csi.ControllerModifyVolumeResponse, error){
-    return nil, status.Error(codes.Unimplemeted, "")
-}
+
