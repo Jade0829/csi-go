@@ -36,12 +36,12 @@ endif
 CSI_IMAGE := $(CSI_IMAGE_REGISTRY)/gcsi:$(CSI_IMAGE_TAG)
 
 # default target
-all: spdkcsi
+all: gcsi
 
 # build binary
 .PHONY: gcsi
-spdkcsi:
-	@echo === building spdkcsi binary
+gcsi:
+	@echo === building gluesys csi binary
 	@CGO_ENABLED=0 GOARCH=$(GOARCH) GOOS=linux go build -buildvcs=false -o $(OUT_DIR)/gcsi ./cmd/
 
 
