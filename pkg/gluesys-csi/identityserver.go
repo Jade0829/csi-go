@@ -21,7 +21,7 @@ import (
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
 
-	csicommon "github.com/Jade0829/CSI/csi-common"
+	csicommon "github.com/Jade0829/csi-go/pkg/csi-common"
 )
 
 type identityServer struct {

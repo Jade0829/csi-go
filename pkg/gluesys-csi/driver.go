@@ -20,8 +20,8 @@ import (
 	"github.com/container-storage-interface/spec/lib/go/csi"
 	"k8s.io/klog"
 
-	"github.com/Jade0829/CSI/util"
-	csicommon "github.com/Jade0829/CSI/csi-common"
+	"github.com/Jade0829/csi-go/pkg/util"
+	csicommon "github.com/Jade0829/csi-go/pkg/csi-common"
 )
 
 func Run(conf *util.Config) {

@@ -26,8 +26,8 @@ import (
 	"google.golang.org/grpc/status"
 	"k8s.io/klog"
 
-	"github.com/Jade0829/CSI/util"
-	csicommon "github.com/Jade0829/CSI/csi-common"
+	"github.com/Jade0829/csi-go/pkg/util"
+	csicommon "github.com/Jade0829/csi-go/pkg/csi-common"
 )
 
 var errVolumeInCreation = status.Error(codes.Internal, "volume in creation")

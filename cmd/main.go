@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/Jade0829/CSI/gluesys-csi"
-	"github.com/Jade0829/CSI/util"
+	"github.com/Jade0829/csi-go/pkg/gluesys-csi"
+	"github.com/Jade0829/csi-go/pkg/util"
 )
 
 const (
